@@ -82,6 +82,7 @@ img{
 }
 
 .bolinha{
+  margin-left: 8px;
   width: 4.4vw;
   height: 4.4vw;
   border-radius: 50%;
@@ -110,7 +111,10 @@ img{
     border: 0.4vw solid #545454;
 }
 
-bolinha:hover{
-    transform: scale(1.1) translate(1px,1px);
-    transition: tranform .5s;
+.bolinha:hover{
+    opacity: 100%;
+    border: 2px solid #545454; 
+    transform: scale(1.1) translate(-2px, -2px); 
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.600); 
+    transition: transform .5s;
 }
