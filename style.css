@@ -13,7 +13,7 @@ body{
 h1{
     color: #313131;   
     font-size: 5vw;
-    padding-top: 0;
+    padding-top: ;
     
 }
 
@@ -23,7 +23,8 @@ h2{
 }
 
 #botao {
-    margin: 20px auto;
+    margin-bottom: 20px;
+    padding: 1px;
     background-color: #726995;
     width: 22vw;
     height: 5vh;
@@ -38,7 +39,7 @@ h2{
 }
 
 img{
-    width: 40vw;
+    width: 73vw;
     height: auto;
     display: block;
 }
@@ -54,7 +55,7 @@ img{
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 80px;
+    padding-top: 50px;
     height: 60vh auto;
     width: 70vw auto;
     text-align: center;
@@ -76,9 +77,40 @@ img{
     font-size: 2vw;
 }
 
-.bolinhabranca{
-    background-color:#E0E1E5;
-    border-color:#545454;
-    width: 50%;    
-    height: 50%;
+.botao-nav{
+    text-align: center;
+}
+
+.bolinha{
+  width: 4.4vw;
+  height: 4.4vw;
+  border-radius: 50%;
+  border: 0.2vw solid #545454;
+  cursor: pointer;
+  display: inline-block; 
+}
+
+.branca{
+    background-color: #E0E1E5;
+    border: 0.4vw solid #545454;
+}
+
+.roxa{
+    background-color: #A197BD;
+    border: 0.4vw solid #545454;
+}
+
+.cinza{
+    background-color: #67696B;
+    border: 0.4vw solid #545454;
+}
+
+.preta{
+    background-color: #161719;
+    border: 0.4vw solid #545454;
+}
+
+bolinha:hover{
+    transform: scale(1.1) translate(1px,1px);
+    transition: tranform .5s;
 }
