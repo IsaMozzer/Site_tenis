@@ -1,5 +1,8 @@
 @charset "UTF-8";
-
+@font-face {
+    font-family: tenika;
+    src: url(fonte/TenikaRegular.ttf);
+}
 *{
     margin: 0px;
     padding: 0px;   
@@ -12,8 +15,9 @@ body{
 
 h1{
     color: #313131;   
-    font-size: 5vw;
-    padding-top: ;
+    font-size: 4vw;
+    padding-bottom:3vw;
+    font-family: tenika;
     
 }
 
@@ -25,6 +29,7 @@ h2{
 #botao {
     margin-bottom: 20px;
     padding: 1px;
+    margin-top: 2vw;
     background-color: #726995;
     width: 22vw;
     height: 5vh;
@@ -35,13 +40,14 @@ h2{
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-size: 3vw;
+    font-size: clamp(14px, 2vw, 20px);
 }
 
 #botao:active {
   transform: scale(0.95); 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); 
 }
+
 img{
     width: 73vw;
     height: auto;
@@ -97,12 +103,12 @@ img{
 
 .branca{
     background-color: #E0E1E5;
-    border: 0.3vw solid #545454;
+    border: 0.2vw solid #545454;
 }
 
 .roxa{
     background-color: #A197BD;
-    border: 0.2vw solid #545454;
+    border: 0.3px solid #545454;
 }
 
 .cinza{
