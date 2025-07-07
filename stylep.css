@@ -11,7 +11,7 @@
 }
 
 body{
-    background-color: #878C8F;
+    background-color:#080809;
 }
 
 h1{
@@ -31,7 +31,7 @@ h2{
     margin-bottom: 20px;
     padding: 10px;
     margin-top: 2vw;
-    background-color: #6E6E70;
+    background-color: #272729;
     width: auto;
     height: auto;
     display: flex;              /* Centraliza conteúdo */
@@ -114,12 +114,12 @@ img{
 
 .cinza{
     background-color: #67696B;
-    border: 0.3vw solid #545454;
+    border: 0.2vw solid #545454;
 }
 
 .preta{
     background-color: #161719;
-    border: 0.2vw solid #545454;
+    border: 0.3vw solid #545454;
 }
 
 .bolinha:hover{
