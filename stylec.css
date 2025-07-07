@@ -11,7 +11,7 @@
 }
 
 body{
-    background-color: #998CB8;
+    background-color: #878C8F;
 }
 
 h1{
@@ -31,7 +31,7 @@ h2{
     margin-bottom: 20px;
     padding: 10px;
     margin-top: 2vw;
-    background-color: #726995;
+    background-color: #6E6E70;
     width: auto;
     height: auto;
     display: flex;              /* Centraliza conteúdo */
@@ -50,15 +50,9 @@ h2{
 }
 
 img{
-    width: 73vw;
+    width: 64vw;
     height: auto;
     display: block;
-}
-
-#descricao{
-    color: #221848;
-    font-size: 2vw;
-    font-weight: bold;
 }
 
 #card{
@@ -80,11 +74,17 @@ img{
 }
 
 #destaque{
-    color: #6C648D;
+    color: #616264;
+}
+
+#descricao{
+    color: #252222;
+    font-size: 2vw;
+    font-weight: bold;
 }
 
 #descricao_tenis{
-    color: #111719;
+    color: #373737;
     font-size: 2vw;
 }
 
@@ -104,12 +104,12 @@ img{
 
 .branca{
     background-color: #E0E1E5;
-    border: 0.2vw solid #545454;
+    border: 0.3vw solid #545454;
 }
 
 .roxa{
     background-color: #A197BD;
-    border: 0.3vw solid #545454;
+    border: 0.2vw solid #545454;
 }
 
 .cinza{
